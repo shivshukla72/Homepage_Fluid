@@ -75,8 +75,8 @@ jQuery(document).ready(function($){
     speed: 300,
     slidesToShow: 4.25,
     slidesToScroll: 1,
-    'prevArrow': '<div class="pr-bs__product-slider-icon prev-icon"><img src="./assets/images/left-arrow.png" alt="Left Arrow"></div>',
-    'nextArrow': '<div class="pr-bs__product-slider-icon next-icon"><img src="./assets/images/right-arrow.png" alt="Right Arrow"></div>',
+    'prevArrow': '<div class="pr-bs__product-slider-icon prev-icon"><img src="../assets/images/left-arrow.png" alt="Left Arrow"></div>',
+    'nextArrow': '<div class="pr-bs__product-slider-icon next-icon"><img src="../assets/images/right-arrow.png" alt="Right Arrow"></div>',
     responsive: [
       {
         breakpoint: 1024,
@@ -114,11 +114,27 @@ jQuery(document).ready(function($){
     $('.pr-bs__product').css("margin-right", -rightOffset + "px");
   }
 
-  $(window).on('load',function() {
+  $(window).on('load resize',function() {
     setRightOffset();
   });
 
-  $(window).on('resize',function() {
-    setRightOffset();
+// GSAP Animation
+gsap.registerPlugin(ScrollTrigger);
+
+const gridItems = document.querySelectorAll('.parallax-effect');
+// Function to create the parallax effect
+function createParallax() {
+  gsap.to(gridItems, {
+    y: function (index, target) {
+      return -20 * index; 
+    },
+    ease: "none",
+    scrollTrigger: {
+      trigger: '.pr-rl__container',
+      scrub: 2, 
+    },
   });
+}
+window.addEventListener('load', createParallax);
+
 });

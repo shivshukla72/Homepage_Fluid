@@ -1,7 +1,12 @@
 @import 'colors';
-@import 'mixin';
 @import 'typography';
+@import 'variable';
+@import 'mixin';
 @import 'partials/header';
 @import 'partials/footer';
 @import 'base';
-@import 'homepage';
+@import 'sections/announcement';
+@import 'sections/banner';
+@import 'sections/best-seller';
+@import 'sections/real-life';
+@import 'sections/brew-guides';

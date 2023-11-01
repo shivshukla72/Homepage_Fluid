@@ -3,7 +3,7 @@
     padding: 14px 0;
     position: relative;
     transition: all 0.3s linear;
-    z-index: 999;
+    z-index: $zindex--lg;
 
     &.sticky {
         backdrop-filter: blur(12px);
@@ -12,9 +12,9 @@
         position: fixed;
         right: 0;
         top: 0;
-        z-index: 999;
+        z-index: $zindex--lg;
 
-        @media only screen and (min-width: 992px) {
+        @media only screen and (min-width: $lg-screen) {
             -webkit-backdrop-filter: blur(12px);
             @include rgba($white,0.5);  
         }
@@ -26,7 +26,7 @@
 
     .pr-header__menu {
         flex: 0 0 100%;
-        @media only screen and (min-width: 992px) {
+        @media only screen and (min-width: $lg-screen) {
             gap: 50px;
         }
         
@@ -39,7 +39,7 @@
             max-width: 150px;
         }
 
-        @media only screen and (min-width: 992px) {
+        @media only screen and (min-width: $lg-screen) {
             &.menu--first {
                 display: block !important; // use important to overwrite the js.
                 position: static;
@@ -56,7 +56,7 @@
         flex: 0 0 100%;
         max-width: calc(100% - 210px);
 
-        @media only screen and (min-width: 992px) {
+        @media only screen and (min-width: $lg-screen) {
             max-width: 10%;   
         }
 
@@ -138,7 +138,7 @@
         position: absolute;
         right: 0;
         top: 58px;
-        z-index: 999;
+        z-index: $zindex--lg;
         display: none;
     }
 
@@ -166,7 +166,7 @@
     display: inline-block;
     cursor: pointer;
     
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: $lg-screen) {
         display: none;
     }
 

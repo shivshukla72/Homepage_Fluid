@@ -6,7 +6,8 @@
 - Bootstrap 5
 - JavaScript
 - jQuery
-- Slick Carousel (for the slider)
+- GSAP ( Implement the parallax effect )
+- Slick Carousel ( Implement the slider )
 
 ## Project Setup Guidelines
 1. Clone the repository to your local machine using `git clone`.

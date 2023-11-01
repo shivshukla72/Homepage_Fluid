@@ -10,14 +10,14 @@
     background-size: 20px 2px;
     background-repeat: repeat-x;
 
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: $lg-screen) {
         padding-bottom: 40px;
     }
 
     .pr-footer__col--left {
         margin-bottom: 15px;
 
-        @media only screen and (min-width: 768px) {
+        @media only screen and (min-width: $md-screen) {
             padding-right: 15px;
             margin-bottom: 0;
         }
@@ -47,7 +47,7 @@
     background-color: $carolina-blue;
     border-radius: 6px;
 
-    @media only screen and (min-width: 768px) {
+    @media only screen and (min-width: $lg-screen) {
         padding: 17px 30px;
     }
 
@@ -94,7 +94,7 @@
 .pr-footer__navigation {
     padding: 45px 0 20px;
 
-    @media only screen and (min-width: 992px) {
+    @media only screen and (min-width: $lg-screen) {
         padding: 55px 0 70px;
     }
 
@@ -161,7 +161,7 @@
             transition: all 0.3s ease-in;
 
             &:hover {
-                background-color: $white;
+                background-color: $anti-flash-white;
 
                 svg path {
                     fill: $primary-color;

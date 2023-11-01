@@ -6,66 +6,68 @@
   --body-bg: #FFFFFF;
 }
 
-/* =============================*/
-/*    Font Barlow Condensed     */
-/* =============================*/
+/* ========================================*/
+/*        Font Family Barlow Condensed     */
+/* ========================================*/
 @font-face {
   font-family: "Barlow Condensed Black";
   font-weight: 900;
   font-display: swap;
-  src: url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Black.eot), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Black.ttf), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Black.svg), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Black.woff), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Black.woff2);
+  src: url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Black.ttf), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Black.svg), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Black.woff), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Black.woff2);
 }
 @font-face {
   font-family: "Barlow Condensed ExtraBold";
   font-weight: 800;
   font-display: swap;
-  src: url(../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.eot), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.ttf), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.svg), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBlack.woff), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.woff2);
+  src: url(../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.ttf), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.svg), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBlack.woff), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-ExtraBold.woff2);
 }
 @font-face {
   font-family: "Barlow Condensed Bold";
   font-weight: 700;
   font-display: swap;
-  src: url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.eot), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.svg), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.woff), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.woff2);
+  src: url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.ttf), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.svg), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.woff), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-Bold.woff2);
 }
 @font-face {
   font-family: "Barlow Condensed SemiBold";
   font-weight: 600;
   font-display: swap;
-  src: url(../assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.eot), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.svg), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBlack.woff), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.woff2);
+  src: url(../assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.ttf), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.svg), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBlack.woff), url(../assets/fonts/Barlow_Condensed/BarlowCondensed-SemiBold.woff2);
 }
-/* =============================*/
-/*       Font Josefin Sans      */
-/* =============================*/
+/* =======================================*/
+/*       Font Family Josefin Sans        */
+/* ======================================*/
 @font-face {
   font-family: "Josefin Sans Bold";
   font-display: swap;
   font-weight: 700;
-  src: url(../assets/fonts/Josefin_Sans/JosefinSans-Bold.eot), url(../assets/fonts/Josefin_Sans/JosefinSans-Bold.ttf), url(../assets/fonts/Josefin_Sans/JosefinSans-Bold.svg), url(../assets/fonts/Josefin_Sans/JosefinSans-Bold.woff), url(../assets/fonts/Josefin_Sans/JosefinSans-Bold.woff2);
+  src: url(../assets/fonts/Josefin_Sans/JosefinSans-Bold.ttf), url(../assets/fonts/Josefin_Sans/JosefinSans-Bold.svg), url(../assets/fonts/Josefin_Sans/JosefinSans-Bold.woff), url(../assets/fonts/Josefin_Sans/JosefinSans-Bold.woff2);
 }
 @font-face {
   font-family: "Josefin Sans Regular";
   font-display: swap;
   font-weight: 400;
-  src: url(../assets/fonts/Josefin_Sans/JosefinSans-Regular.eot), url(../assets/fonts/Josefin_Sans/JosefinSans-Regular.ttf), url(../assets/fonts/Josefin_Sans/JosefinSans-Regular.svg), url(../assets/fonts/Josefin_Sans/JosefinSans-Regular.woff), url(../assets/fonts/Josefin_Sans/JosefinSans-Regular.woff2);
+  src: url(../assets/fonts/Josefin_Sans/JosefinSans-Regular.ttf), url(../assets/fonts/Josefin_Sans/JosefinSans-Regular.svg), url(../assets/fonts/Josefin_Sans/JosefinSans-Regular.woff), url(../assets/fonts/Josefin_Sans/JosefinSans-Regular.woff2);
 }
-/* =============================*/
-/*          Font Nunito         */
-/* =============================*/
+/* =====================================*/
+/*          Font Family Nunito          */
+/* =====================================*/
 @font-face {
   font-family: "Nunito Bold";
   font-display: swap;
   font-weight: 700;
-  src: url(../assets/fonts/Nunito/Nunito-Bold.eot), url(../assets/fonts/Nunito/Nunito-Bold.ttf), url(../assets/fonts/Nunito/Nunito-Bold.woff), url(../assets/fonts/Nunito/Nunito-Bold.svg), url(../assets/fonts/Nunito/Nunito-Bold.woff2);
+  src: url(../assets/fonts/Nunito/Nunito-Bold.ttf), url(../assets/fonts/Nunito/Nunito-Bold.woff), url(../assets/fonts/Nunito/Nunito-Bold.svg), url(../assets/fonts/Nunito/Nunito-Bold.woff2);
 }
 @font-face {
   font-family: "Nunito Regular";
   font-display: swap;
   font-weight: 400;
-  src: url(../assets/fonts/Nunito/Nunito-Regular.eot), url(../assets/fonts/Nunito/Nunito-Regular.ttf), url(../assets/fonts/Nunito/Nunito-Regular.woff), url(../assets/fonts/Nunito/Nunito-Regular.woff2), url(../assets/fonts/Nunito/Nunito-Regular.svg);
+  src: url(../assets/fonts/Nunito/Nunito-Regular.ttf), url(../assets/fonts/Nunito/Nunito-Regular.woff), url(../assets/fonts/Nunito/Nunito-Regular.woff2), url(../assets/fonts/Nunito/Nunito-Regular.svg);
 }
-/* ======== Font Family Variables =======*/
-/* ======== Font Size Variables =======*/
-/* ======== Line Height Variables =======*/
+/* ======== Define font family variables ======= */
+/* ======== Define font size variables ======== */
+/* ======== Define line height variables ======= */
+/* ===== Define breakpoints for different screen sizes ====*/
+/* ====== Define variables for managing z-index values  =====*/
 .pr-header {
   background-color: #FFFFFF;
   padding: 14px 0;
@@ -283,7 +285,7 @@
   background-color: #84AEC1;
   border-radius: 6px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .pr-footer__form {
     padding: 17px 30px;
   }
@@ -384,7 +386,7 @@
   transition: all 0.3s ease-in;
 }
 .pr-footer__navigation .pr-footer__social .pr-footer__social-icon-link:hover {
-  background-color: #FFFFFF;
+  background-color: #EFF5F7;
 }
 .pr-footer__navigation .pr-footer__social .pr-footer__social-icon-link:hover svg path {
   fill: var(--primary-color);
@@ -417,12 +419,17 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: var(--body-bg);
+html,
+body,
+p {
   color: var(--body-text);
   font-family: "Nunito Regular";
   font-size: 18px;
   line-height: 28px;
+}
+
+body {
+  background-color: var(--body-bg);
   position: relative;
   margin: 0;
   padding: 0;
@@ -445,11 +452,6 @@ body.menu--open::after {
   }
 }
 
-.pr-homepage p {
-  font-family: "Nunito Regular";
-  font-size: 18px;
-  line-height: 28px;
-}
 .pr-homepage h1,
 .pr-homepage h2,
 .pr-homepage h3,
@@ -508,7 +510,6 @@ input:hover {
   z-index: 999;
 }
 
-/* ======== Banner CSS Start ========= */
 .pr-banner {
   background-image: url(../assets/images/banner.png);
   background-position: center;
@@ -767,7 +768,6 @@ input:hover {
   vertical-align: top;
 }
 
-/* ========= Best Seller Section CSS Start =========*/
 .pr-bs {
   padding: 45px 0;
 }
@@ -817,7 +817,7 @@ input:hover {
 }
 .pr-bs__product-card:hover {
   border-radius: 12px;
-  box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.12);
 }
 .pr-bs__product-card .pr-bs__product-img {
   background-color: #F6F6F6;
@@ -944,18 +944,32 @@ input:hover {
   height: 20px;
 }
 
-/* ============  Real Life Section CSS Start ============== */
 .pr-rl {
   background-color: #F3F7F9;
   padding: 75px 0 55px;
+  position: relative;
+}
+.pr-rl .pr-rl__img-wrap,
+.pr-rl .pr-rl__img--first,
+.pr-rl .pr-rl__img--second {
+  overflow: hidden;
+}
+@media only screen and (min-width: 992px) {
+  .pr-rl .pr-rl__img-wrap,
+  .pr-rl .pr-rl__img--first,
+  .pr-rl .pr-rl__img--second {
+    overflow: visible;
+  }
 }
 
+.pr-rl__row.row--one {
+  justify-content: space-between;
+}
 .pr-rl__row.row--one .pr-rl__col {
   flex: 0 0 100%;
 }
 .pr-rl__row.row--one .pr-rl__col.col--one {
   max-width: 100%;
-  overflow: hidden;
   order: 2;
 }
 @media only screen and (min-width: 768px) {
@@ -970,18 +984,21 @@ input:hover {
   }
 }
 .pr-rl__row.row--one .pr-rl__col.col--one .pr-rl__img-wrap {
-  overflow: hidden;
+  margin-bottom: 30px;
 }
-.pr-rl__row.row--one .pr-rl__col.col--one .pr-rl__img {
-  background-image: url(../assets/images/bottle.png);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 326px;
+.pr-rl__row.row--one .pr-rl__col.col--one .pr-rl__img-wrap img {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .pr-rl__row.row--one .pr-rl__col.col--one .pr-rl__img-wrap img {
+    margin-bottom: 0;
+    height: 350px;
+  }
 }
 @media only screen and (min-width: 1024px) {
-  .pr-rl__row.row--one .pr-rl__col.col--one .pr-rl__img {
-    margin-top: 30px;
+  .pr-rl__row.row--one .pr-rl__col.col--one .pr-rl__img-wrap img {
     width: 246px;
+    height: 346px;
   }
 }
 .pr-rl__row.row--one .pr-rl__col.col--two {
@@ -1010,7 +1027,7 @@ input:hover {
 }
 @media only screen and (min-width: 768px) {
   .pr-rl__row.row--one .pr-rl__col.col--three {
-    max-width: 60%;
+    max-width: calc(60% - 10px);
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -1030,13 +1047,19 @@ input:hover {
 .pr-rl__row.row--one .pr-rl__col.col--three .pr-rl__img-row .pr-rl__img-wrap {
   flex: 0 0 100%;
 }
+.pr-rl__row.row--one .pr-rl__col.col--three .pr-rl__img-row .pr-rl__img-wrap img {
+  width: 100%;
+  height: auto;
+}
 @media only screen and (min-width: 768px) {
   .pr-rl__row.row--one .pr-rl__col.col--three .pr-rl__img-row .pr-rl__img-wrap:first-child {
     max-width: 100%;
   }
   .pr-rl__row.row--one .pr-rl__col.col--three .pr-rl__img-row .pr-rl__img-wrap:first-child img {
-    height: 200px;
     width: 100%;
+    height: 175px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -1047,8 +1070,8 @@ input:hover {
     z-index: 99;
   }
   .pr-rl__row.row--one .pr-rl__col.col--three .pr-rl__img-row .pr-rl__img-wrap:first-child img {
-    height: 304px;
-    width: 200px;
+    width: 190px;
+    height: 240px;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -1056,8 +1079,10 @@ input:hover {
     max-width: 100%;
   }
   .pr-rl__row.row--one .pr-rl__col.col--three .pr-rl__img-row .pr-rl__img-wrap:last-child img {
-    height: 200px;
     width: 100%;
+    height: 175px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 @media only screen and (min-width: 1024px) {
@@ -1065,8 +1090,8 @@ input:hover {
     max-width: 40%;
   }
   .pr-rl__row.row--one .pr-rl__col.col--three .pr-rl__img-row .pr-rl__img-wrap:last-child img {
-    height: 158px;
-    width: 119px;
+    width: 120px;
+    height: 160px;
   }
 }
 
@@ -1082,66 +1107,63 @@ input:hover {
     max-width: 50%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1041px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .pr-rl__row.row--two .pr-rl__col.col--one .pr-rl__img-wrap {
     display: grid;
     gap: 15px;
     grid-template-columns: 1fr 1fr;
     margin: 10px 0;
   }
-  .pr-rl__row.row--two .pr-rl__col.col--one .pr-rl__img-wrap img {
-    height: 200px;
-    width: 100%;
-  }
 }
-.pr-rl__row.row--two .pr-rl__col.col--one .pr-rl__img-wrap {
-  overflow: hidden;
-}
-.pr-rl__row.row--two .pr-rl__col.col--one .pr-rl__img--first {
-  background-image: url(../assets/images/kitchen.png);
-  background-attachment: fixed;
+.pr-rl__row.row--two .pr-rl__col.col--one .pr-rl__img-wrap img {
+  width: 100%;
   height: 300px;
-  background-repeat: no-repeat;
 }
 @media only screen and (min-width: 1024px) {
-  .pr-rl__row.row--two .pr-rl__col.col--one .pr-rl__img--first {
+  .pr-rl__row.row--two .pr-rl__col.col--one .pr-rl__img-wrap {
     margin-top: 45px;
+  }
+  .pr-rl__row.row--two .pr-rl__col.col--one .pr-rl__img-wrap img {
+    width: 420px;
+    height: 302px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .pr-rl__row.row--two .pr-rl__col.col--one .pr-rl__img--second img {
+    width: 100%;
+    height: 300px;
   }
 }
 @media only screen and (min-width: 1024px) {
   .pr-rl__row.row--two .pr-rl__col.col--one .pr-rl__img--second {
     position: absolute;
-    right: 10px;
+    right: 50px;
     top: -40px;
   }
   .pr-rl__row.row--two .pr-rl__col.col--one .pr-rl__img--second img {
-    height: 264px;
-    width: 264px;
+    width: 246px;
+    height: 246px;
   }
 }
 .pr-rl__row.row--two .pr-rl__col.col--two {
   max-width: 100%;
+}
+.pr-rl__row.row--two .pr-rl__col.col--two img {
+  width: 100%;
+  height: 350px;
 }
 @media only screen and (min-width: 1024px) {
   .pr-rl__row.row--two .pr-rl__col.col--two {
     max-width: 50%;
   }
   .pr-rl__row.row--two .pr-rl__col.col--two .pr-rl__img-wrap {
+    text-align: center;
     margin-top: -40px;
     position: relative;
-    text-align: center;
-    overflow: hidden;
-    z-index: 9;
-    background-image: url(../assets/images/mountain.png);
-    background-attachment: fixed;
-    height: 300px;
-    background-repeat: no-repeat;
   }
-}
-@media only screen and (max-width: 767px) {
-  .pr-rl__row.row--two .pr-rl__col img {
-    margin: 8px 0;
-    width: 100%;
+  .pr-rl__row.row--two .pr-rl__col.col--two .pr-rl__img-wrap img {
+    height: 364px;
+    width: 480px;
   }
 }
 
@@ -1170,7 +1192,6 @@ input:hover {
   }
 }
 
-/* ============ Two Column Image Section CSS Start  ============== */
 .pr-tc {
   padding: 45px 0;
 }

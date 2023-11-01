@@ -12,12 +12,17 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  background-color: $body-bg;
+html,
+body,
+p {
   color: $body-text;
   font-family: $fm-nunito-reg;
   font-size: $fs-body-xl;
   line-height: $lh-body-xl;
+}
+
+body {
+  background-color: $body-bg;
   position: relative;
   margin: 0;
   padding: 0;
@@ -43,12 +48,6 @@ body {
 }
 
 .pr-homepage {
-  p {
-    font-family: $fm-nunito-reg;
-    font-size: $fs-body-xl;
-    line-height: $lh-body-xl;
-  }
-
   h1,
   h2,
   h3,
